@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import styles from "../../styles/Services.module.css";
-import ServicesType from "../../types/ServicesType";
+import ServicesType from "../../constants/types/ServicesType";
 
 type Props = {
   services: ServicesType[];
