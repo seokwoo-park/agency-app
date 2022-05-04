@@ -4,3 +4,4 @@ export { default as Layout } from "./Layout/Layout.tsx";
 export { default as SEO } from "./SEO/SEO.tsx";
 
 export { default as Intro } from "./Intro/Intro.tsx";
+export { default as Services } from "./Services/Services.tsx";
