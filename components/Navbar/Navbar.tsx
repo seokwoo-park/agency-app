@@ -7,7 +7,7 @@ type Props = {};
 const Navbar = (props: Props) => {
   return (
     <div className={styles.container}>
-      <Link href="/">PEACH</Link>
+      <Link href="/">GRAPEST</Link>
       <ul className={styles.list}>
         <li className={styles.listItem}>
           <Link href="/products/design">DESIGN</Link>

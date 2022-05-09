@@ -12,7 +12,7 @@ const Intro = (props: Props) => {
       <Circle backgroundColor="#01c686" right="-40vh" />
       <div className={styles.card}>
         <h1 className={styles.title}>
-          <p className={styles.brandName}>WE ARE PEACH </p>
+          <p className={styles.brandName}>WE ARE GRAPEST </p>
           DIGITAL PRODUCT AGENCY
         </h1>
         <p className={styles.desc}>
@@ -23,7 +23,7 @@ const Intro = (props: Props) => {
       </div>
       <div className={styles.card}>
         <Image
-          src="/assets/Peach.png"
+          src="/assets/grapest.png"
           width="100%"
           height="100%"
           layout="fill"

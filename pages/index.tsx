@@ -14,7 +14,6 @@ interface Props {
 
 export const getServerSideProps = async () => {
   const services = services_data;
-  // const res = await fetch("https://jsonplaceholder.typicode.com/users");
   const res = await fetch("https://randomuser.me/api/?results=6");
   const { results: userData } = await res.json();
   return {
@@ -25,7 +24,7 @@ export const getServerSideProps = async () => {
 const Home: NextPage<Props> = ({ services, userData }) => {
   return (
     <div className={styles.container}>
-      <SEO title="PEACH" description="PEACH home" />
+      <SEO title="GRAPEST" description="GRAPEST home" />
       <Intro />
       <Services services={services} />
       <Testimonial userData={userData} />
