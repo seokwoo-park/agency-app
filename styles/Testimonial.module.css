@@ -1,6 +1,6 @@
 .container {
   font-size: 18px;
-  height: 100vh;
+  height: 100%;
   padding-bottom: 100px;
   position: relative;
   overflow: hidden;
@@ -12,7 +12,9 @@
 
 .title {
   text-align: center;
-  margin: 0;
+  margin: 2rem 0;
+  color: rgba(0, 128, 0, 0.774);
+  border-bottom: 3px double red;
 }
 
 .wrapper {

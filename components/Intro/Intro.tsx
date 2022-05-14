@@ -28,7 +28,7 @@ const Intro = (props: Props) => {
           height="100%"
           layout="fill"
           objectFit="contain"
-          alt=""
+          alt="Digital product agency grapest"
         />
       </div>
     </div>

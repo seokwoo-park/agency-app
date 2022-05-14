@@ -1,6 +1,6 @@
 import type { GetServerSideProps, NextPage } from "next";
 import SEO from "../components/SEO/SEO";
-import styles from "../styles/Home.module.css";
+// import styles from "../styles/Home.module.css";
 import { Intro, Services } from "../components";
 import { services_data } from "../constants/data/services";
 import ServicesType from "../constants/types/ServicesType";
@@ -23,7 +23,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
 
 const Home: NextPage<Props> = ({ services, userData }) => {
   return (
-    <div className={styles.container}>
+    <div>
       <SEO title="GRAPEST" description="GRAPEST home" />
       <Intro />
       <Services services={services} />

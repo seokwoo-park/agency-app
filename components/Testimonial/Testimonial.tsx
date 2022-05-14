@@ -9,11 +9,9 @@ type Props = {
 };
 
 const Testimonial = ({ userData }: Props) => {
-  console.log(userData);
   return (
     <div className={styles.container}>
-      <Circle backgroundColor="darkblue" top="-70vh" left="0" right="0" />
-      <h1 className={styles.title}>Testimonials</h1>
+      <h1 className={styles.title}>Partners testimonial</h1>
       <div className={styles.wrapper}>
         {userData.map((user) => (
           <div className={styles.card} key={user.login.uuid}>
