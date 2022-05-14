@@ -5,7 +5,7 @@ export const services_data = [
     title: "Design",
     desc: "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
     video: "video.mp4",
-    // photo: "asdasd.png",
+    photo: "asdasd.png",
     longDesc:
       "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library. Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
     images: [

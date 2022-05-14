@@ -3,11 +3,11 @@ export default interface ServicesType {
   name: string;
   title: string;
   desc: string;
-  video: string;
+  video?: string;
   photo: string;
   longDesc: string;
   images: {
     id: number;
     url: string;
-  };
+  }[];
 }

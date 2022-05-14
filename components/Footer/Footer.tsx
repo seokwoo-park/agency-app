@@ -53,9 +53,9 @@ const Footer = (props: Props) => {
           </a>
         </div>
         <div className={styles.cardItem}>
-          © 2022 GRAPEST INTERACTIVE,
+          © 2022 SEOKWOO PARK,
           <br />
-          THIS IS DEMO WEBSITE
+          Project website
         </div>
       </div>
     </div>

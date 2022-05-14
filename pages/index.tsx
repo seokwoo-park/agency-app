@@ -1,4 +1,4 @@
-import type { NextPage } from "next";
+import type { GetServerSideProps, NextPage } from "next";
 import SEO from "../components/SEO/SEO";
 import styles from "../styles/Home.module.css";
 import { Intro, Services } from "../components";
@@ -12,7 +12,7 @@ interface Props {
   userData: UserDataType[];
 }
 
-export const getServerSideProps = async () => {
+export const getServerSideProps: GetServerSideProps = async () => {
   const services = services_data;
   const res = await fetch("https://randomuser.me/api/?results=6");
   const { results: userData } = await res.json();
