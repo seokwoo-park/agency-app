@@ -22,7 +22,7 @@ const Navbar = (props: Props) => {
           <Link href="/products/photography">PHOTOGRAPHY</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="/products/contact">CONTACT</Link>
+          <Link href="/contact">CONTACT</Link>
         </li>
       </ul>
     </div>
